@@ -15,3 +15,12 @@ Ein neues Projekt kannst Du auf zwei Arten anlegen:
 ![File / New / Project](./img/file_new_project.png)
 
 ![Startseite / New Project](./img/startseite_new_project.png)
+
+Im nächsten Schritt wirst Du mit einer großen Auswahl an Möglichkeiten konfrontiert. Hier gibt es vier Dinge zu erledigen:
+
+1. die Programmiersprache Visual C#
+2. ein Projekt mit grafischer Oberfläche vom Typ "Windows Forms Application"
+3. einen Namen, den Du selbst auswählen kannst (am besten ohne Leerzeichen und ohne Umlaute)
+4. den Ordner, in dem Du Dein Projekt speichern möchtest
+
+![Projekteinstellungen](./img/projekt_einstellungen.png)
