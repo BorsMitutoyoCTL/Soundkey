@@ -68,4 +68,21 @@ Eine weitere Quelle für Sounds ist [Freesound](https://freesound.org/). Viele D
 
 Um andere Audiodateien, inkl. WAV, in MP3 umzuwandeln kannst Du [Audacity](http://www.audacityteam.org/download/windows/) nutzen. Aus lizenzrechtlichen Gründen muss allerdings der Konvertierer [LAME separat heruntergeladen](http://lame.buanzo.org/#lamewindl) werden.
 
+Wer ein Instrument spielt und sich mit Noten auskennt, dem gefällt vielleicht [MuseScore](https://musescore.org/de/download). Zunächst empfiehlt es sich, die überflüssigen Takte zu markieren und mit Strg+Entf zu löschen. Danach kann mit N die Noteneingabe gestartet werden. 
 
+## Sounds wiedergeben
+
+Jetzt wird es Zeit, auch mal einen Ton abzuspielen. Ein MP3 abzuspielen ist gar nicht so einfach. Zum Glück gibt es schlaue Leute, die das schon vor uns gemacht haben und die uns ihr Wissen auch in einer so genannten NuGet Bibliothek zur Verfügung stellen. Eine solche Bibliothek fügen wir zum Projekt hinzu:
+
+![NuGet Bibliothek hinzufügen](./img/nuget.png)
+
+Die Bibliothek, die wir benutzen heißt NAudio.
+
+![NAudio](./img/naudio.png)
+
+Dann erstellen wir zu Testzwecken einen neuen Button und bringen ihm das Töne abspielen bei:
+
+    var mp3stream = new Mp3FileReader("D:\\Projekte\\BORS\\Soundkey\\Sounds\\Klavier\\a.mp3");
+    var ausgabe = new WaveOut();
+    ausgabe.Init(mp3stream);
+    ausgabe.Play();
