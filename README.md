@@ -1,6 +1,8 @@
 # Soundkey
 Tutorial für ein Programm, das Töne abspielt, wenn eine Taste gedrückt wird.
 
+[Der Programmieranfang](#Der%20Programmieranfang)
+
 ## Der Programmieranfang
 
 Dieses Tutorial sieht vor, dass das Programm in C# geschrieben wird. C# ist eine von vielen Programmiersprachen.
@@ -58,7 +60,13 @@ Jetzt hast Du 4 Dateien in 4 Größen auf Deiner Platte. Daraus kannst Du mit Ic
 
 ![Icon in IcoFx](./img/icofx.png)
 
-Das Logo kannst Du dem Fenster zuweisen und auch der Exe-Datei als Bild mitgeben.
+Das Logo kannst Du dem Fenster zuweisen:
+
+![Dem Fenster ein Icon zuweisen](./img/window_icon.png)
+
+und auch der Exe-Datei als Bild mitgeben:
+
+![Der Exe ein Icon zuweisen](./img/exe_icon.png)
 
 ## Sounds erstellen
 
@@ -68,7 +76,11 @@ Eine weitere Quelle für Sounds ist [Freesound](https://freesound.org/). Viele D
 
 Um andere Audiodateien, inkl. WAV, in MP3 umzuwandeln kannst Du [Audacity](http://www.audacityteam.org/download/windows/) nutzen. Aus lizenzrechtlichen Gründen muss allerdings der Konvertierer [LAME separat heruntergeladen](http://lame.buanzo.org/#lamewindl) werden.
 
-Wer ein Instrument spielt und sich mit Noten auskennt, dem gefällt vielleicht [MuseScore](https://musescore.org/de/download). Zunächst empfiehlt es sich, die überflüssigen Takte zu markieren und mit Strg+Entf zu löschen. Danach kann mit N die Noteneingabe gestartet werden. 
+Wer ein Instrument spielt und sich mit Noten auskennt, dem gefällt vielleicht [MuseScore](https://musescore.org/de/download). Zunächst empfiehlt es sich, die überflüssigen Takte zu markieren und mit Strg+Entf zu löschen. Danach kann mit N die Noteneingabe gestartet werden.
+
+![Takt in MuseScore löschen](./img/takt_loeschen.png)
+
+![MuseScore Noteneingabe](./img/musescore_eingabe.png)
 
 ## Sounds wiedergeben
 
@@ -86,3 +98,8 @@ Dann erstellen wir zu Testzwecken einen neuen Button und bringen ihm das Töne a
     var ausgabe = new WaveOut();
     ausgabe.Init(mp3stream);
     ausgabe.Play();
+
+Ganz oben müssen wir noch angeben, dass wir NAudio auch verwenden wollen. Dies geschieht mit
+
+    using NAudio;
+    using NAudio.Wave;
