@@ -10,7 +10,20 @@ Tutorial für ein Programm, das Töne abspielt, wenn eine Taste gedrückt wird.
 
 Dieses Tutorial sieht vor, dass das Programm in C# geschrieben wird. C# ist eine von vielen Programmiersprachen.
 
+### Installation von Visual Studio
+
 Um in C# zu programmieren verwenden wir einen kostenlosen Editor von Microsoft, nämlich [Visual Studio 2017 Community Edition](https://www.visualstudio.com/downloads). Um an eine kostenlose Lizenz zu kommen brauchst Du einen [Microsoft Live Account](https://login.live.com).
+
+Bei der Installation solltest Du auf folgende Punkte achten:
+
+1. Als "Workload" installiere ".NET-Desktopentwicklung"
+2. Als Sprachen entferne "Deutsch" und wähle stattdessen "Englisch". Das ist wichtig, wenn Du im Internet nach Fehlermeldungen oder Bedienhinweisen suchen möchtest. Viele Tipps und Tricks gibt es im Internet nur auf Englisch.
+
+![Workload](./img/installation_workloads.png)
+
+![Sprache](./img/installation_sprachpakete.png)
+
+### Neues Projekt anlegen
 
 Ein neues Projekt kannst Du auf zwei Arten anlegen:
 
