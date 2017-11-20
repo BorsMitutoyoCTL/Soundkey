@@ -25,7 +25,9 @@ Im nächsten Schritt wirst Du mit einer großen Auswahl an Möglichkeiten konfro
 
 ![Projekteinstellungen](./img/projekt_einstellungen.png)
 
-Sobald das Projekt erzeugt wurde, siehst Du ein Fenster so ähnlich, wie es später auch mal aussehen wird. Am Anfang hat es noch einen unbrauchbaren Namen und ein unbrauchbares Logo.
+Sobald das Projekt erzeugt wurde, siehst Du ein Fenster so ähnlich, wie es später auch mal aussehen wird. 
+
+Am Anfang hat es noch einen unbrauchbaren Namen und ein unbrauchbares Logo.
 
 ![Fenster mit unbrauchbaren Eigenschaften](./img/fenster.png)
 
@@ -42,6 +44,8 @@ Das Logo kannst Du dem Fenster zuweisen und auch der Exe-Datei als Bild mitgeben
 ## Sounds erstellen
 
 Eine Möglichkeit, Sounds zu erstellen ist Text-to-speech, also das Umwandeln von Text in Sprache. In Windows 10 hat Microsoft schon Sprachen integriert. Mit dem Programm [Balabolka](http://www.cross-plus-a.com/de/balabolka.htm) kannst Du Text in MP3s umwandeln, zum Beispiel das [internationale Buchstabieralphabet](http://www.ib-haertling.de/amateurfunk/Alphabet.pdf).
+
+Um andere Audiodateien, z.B. WAV, in MP3 umzuwandeln kannst Du [Audacity](http://www.audacity.de/) nutzen. Aus lizenzrechtlichen Gründen muss allerdings der Konvertierer [LAME separat heruntergeladen](http://lame.buanzo.org/#lamewindl) werden.
 
 
 
