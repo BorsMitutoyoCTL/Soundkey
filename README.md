@@ -1,10 +1,10 @@
 # Soundkey
 Tutorial für ein Programm, das Töne abspielt, wenn eine Taste gedrückt wird.
 
-[Der Programmieranfang](#der-programmieranfang)
-[Grafiken erstellen](#grafiken-erstellen)
-[Sounds erstellen](#sounds-erstellen)
-[Sounds wiedergeben](#sounds-wiedergeben)
+* [Der Programmieranfang](#der-programmieranfang)
+* [Grafiken erstellen](#grafiken-erstellen)
+* [Sounds erstellen](#sounds-erstellen)
+* [Sounds wiedergeben](#sounds-wiedergeben)
 
 ## Der Programmieranfang
 
