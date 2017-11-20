@@ -64,6 +64,8 @@ Das Logo kannst Du dem Fenster zuweisen und auch der Exe-Datei als Bild mitgeben
 
 Eine Möglichkeit, Sounds zu erstellen ist Text-to-speech, also das Umwandeln von Text in Sprache. In Windows 10 hat Microsoft schon Sprachen integriert. Mit dem Programm [Balabolka](http://www.cross-plus-a.com/de/balabolka.htm) kannst Du Text in MP3s umwandeln, zum Beispiel das [internationale Buchstabieralphabet](http://www.ib-haertling.de/amateurfunk/Alphabet.pdf).
 
-Um andere Audiodateien, z.B. WAV, in MP3 umzuwandeln kannst Du [Audacity](http://www.audacity.de/) nutzen. Aus lizenzrechtlichen Gründen muss allerdings der Konvertierer [LAME separat heruntergeladen](http://lame.buanzo.org/#lamewindl) werden.
+Eine weitere Quelle für Sounds ist [Freesound](https://freesound.org/). Viele Dateien gibt es dort allerdings nicht als MP3 sondern im unkomprimierten WAV Format.
+
+Um andere Audiodateien, inkl. WAV, in MP3 umzuwandeln kannst Du [Audacity](http://www.audacityteam.org/download/windows/) nutzen. Aus lizenzrechtlichen Gründen muss allerdings der Konvertierer [LAME separat heruntergeladen](http://lame.buanzo.org/#lamewindl) werden.
 
 
