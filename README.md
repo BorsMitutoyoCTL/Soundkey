@@ -85,6 +85,8 @@ und auch der Exe-Datei als Bild mitgeben:
 
 ![Der Exe ein Icon zuweisen](./img/exe_icon.png)
 
+Wenn Du einen Teil des Bildschirms aufnehmen möchtest, kannst Du [ScreenPresso](https://www.screenpresso.com/de/download/) herunterladen. Mit der `Druck`-Taste nimmst Du ein Bild auf.
+
 ## Sounds erstellen
 
 Eine Möglichkeit, Sounds zu erstellen ist Text-to-speech, also das Umwandeln von Text in Sprache. In Windows 10 hat Microsoft schon Sprachen integriert. Mit dem Programm [Balabolka](http://www.cross-plus-a.com/de/balabolka.htm) kannst Du Text in MP3s umwandeln, zum Beispiel das [internationale Buchstabieralphabet](http://www.ib-haertling.de/amateurfunk/Alphabet.pdf).
