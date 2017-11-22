@@ -1,5 +1,5 @@
-[Oo]bj
-[Bb]in
+[Oo]bj/
+[Bb]in/
 *.user
 *.suo
 *.[Cc]ache
@@ -11,3 +11,5 @@
 _ReSharper.*
 *.resharper.user
 Ankh.NoLoad
+packages/
+* Setup.exe
