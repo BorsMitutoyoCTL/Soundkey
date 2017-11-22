@@ -1,6 +1,19 @@
 # Soundkey
 Tutorial für ein Programm, das Töne abspielt, wenn eine Taste gedrückt wird.
 
+Ein solches Programm kann für mehrere Personen nützlich sein:
+
+* Piloten in der Ausbildung: Erlernen des Buchstabieralphabets
+* Blinde: gedrückte Taste vorlesen lassen
+* Klavier- oder Keyboardspieler: portables Klavier in Form eines Laptops
+* Funker: Erlernen von Morsezeichen
+* Naturschutzbund: Vogelstimmen abspielen
+* Kinder im Vorschulalter: Buchstaben kennenlernen
+* Quizmaster: z.B. beim Musikquiz die ersten 4 Sekunden eines Liedes anspielen
+* Spaßvögel: beliebige lustige Töne zur Unterhaltung
+
+Auf dieser Seite erfährst Du, wie man ein solches Programm erstellt. Hier die Inhalte:
+
 * [Der Programmieranfang](#der-programmieranfang)
 * [Grafiken erstellen](#grafiken-erstellen)
 * [Sounds erstellen](#sounds-erstellen)
