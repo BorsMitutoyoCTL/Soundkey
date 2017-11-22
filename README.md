@@ -93,6 +93,8 @@ Eine weitere Quelle für Sounds ist [Freesound](https://freesound.org/). Viele D
 
 Um andere Audiodateien, inkl. WAV, in MP3 umzuwandeln kannst Du [Audacity](http://www.audacityteam.org/download/windows/) nutzen. Aus lizenzrechtlichen Gründen muss allerdings der Konvertierer [LAME separat heruntergeladen](http://lame.buanzo.org/#lamewindl) werden.
 
+Wenn Du allerdings ganz viele WAV Dateien in MP3s umwandeln möchtest, eignet sich [LameDrop](http://www.rarewares.org/mp3-lamedrop.php).
+
 Wer ein Instrument spielt und sich mit Noten auskennt, dem gefällt vielleicht [MuseScore](https://musescore.org/de/download). Zunächst empfiehlt es sich, die überflüssigen Takte zu markieren und mit Strg+Entf zu löschen. Danach kann mit N die Noteneingabe gestartet werden.
 
 ![Takt in MuseScore löschen](./img/takt_loeschen.png)
@@ -126,4 +128,7 @@ Ganz oben müssen wir noch angeben, dass wir NAudio auch verwenden wollen. Dies 
 Damit wir das Programm auch gut an andere Personen verteilen können, ohne dass sich jeder die EXE, MP3s und andere Dateien einzeln herunterladen muss, erstellen wir ein Setup.
 
 Ein geeignetes Programm ist [InnoSetup](http://www.jrsoftware.org/isinfo.php). Als Download verwendest Du am besten den [Quick Start Pack](http://www.jrsoftware.org/isdl.php#qsp).
+
+Mit dem Wizard erstellst Du das Setup. Der Wizard nimmt Dir Programmierarbeit ab.
+
 
