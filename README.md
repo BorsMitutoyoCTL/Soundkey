@@ -5,6 +5,7 @@ Tutorial für ein Programm, das Töne abspielt, wenn eine Taste gedrückt wird.
 * [Grafiken erstellen](#grafiken-erstellen)
 * [Sounds erstellen](#sounds-erstellen)
 * [Sounds wiedergeben](#sounds-wiedergeben)
+* [Setup erstellen](#setup-erstellen)
 
 ## Der Programmieranfang
 
@@ -119,3 +120,10 @@ Ganz oben müssen wir noch angeben, dass wir NAudio auch verwenden wollen. Dies 
 
     using NAudio;
     using NAudio.Wave;
+
+## Setup erstellen
+
+Damit wir das Programm auch gut an andere Personen verteilen können, ohne dass sich jeder die EXE, MP3s und andere Dateien einzeln herunterladen muss, erstellen wir ein Setup.
+
+Ein geeignetes Programm ist [InnoSetup](http://www.jrsoftware.org/isinfo.php). Als Download verwendest Du am besten den [Quick Start Pack](http://www.jrsoftware.org/isdl.php#qsp).
+
