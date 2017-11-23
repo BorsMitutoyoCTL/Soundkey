@@ -37,6 +37,8 @@
             this.buttonVerstecken = new System.Windows.Forms.Button();
             this.verzeichnisAuswahl = new System.Windows.Forms.FolderBrowserDialog();
             this.buttonAuswahl = new System.Windows.Forms.Button();
+            this.Beschreibung = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.trayMenu.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -72,9 +74,9 @@
             // 
             // buttonVerstecken
             // 
-            this.buttonVerstecken.Location = new System.Drawing.Point(12, 12);
+            this.buttonVerstecken.Location = new System.Drawing.Point(12, 150);
             this.buttonVerstecken.Name = "buttonVerstecken";
-            this.buttonVerstecken.Size = new System.Drawing.Size(165, 23);
+            this.buttonVerstecken.Size = new System.Drawing.Size(250, 23);
             this.buttonVerstecken.TabIndex = 0;
             this.buttonVerstecken.Text = "Verkleinern";
             this.buttonVerstecken.UseVisualStyleBackColor = true;
@@ -88,23 +90,50 @@
             // 
             // buttonAuswahl
             // 
-            this.buttonAuswahl.Location = new System.Drawing.Point(12, 41);
+            this.buttonAuswahl.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.buttonAuswahl.Location = new System.Drawing.Point(12, 83);
             this.buttonAuswahl.Name = "buttonAuswahl";
-            this.buttonAuswahl.Size = new System.Drawing.Size(165, 23);
+            this.buttonAuswahl.Size = new System.Drawing.Size(250, 23);
             this.buttonAuswahl.TabIndex = 4;
             this.buttonAuswahl.Text = "Verzeichnis auswählen ...";
             this.buttonAuswahl.UseVisualStyleBackColor = true;
             this.buttonAuswahl.Click += new System.EventHandler(this.buttonAuswahl_Click);
             // 
+            // Beschreibung
+            // 
+            this.Beschreibung.Location = new System.Drawing.Point(12, 9);
+            this.Beschreibung.Name = "Beschreibung";
+            this.Beschreibung.Size = new System.Drawing.Size(253, 71);
+            this.Beschreibung.TabIndex = 5;
+            this.Beschreibung.Text = "Bitte wählen Sie ein Verzeichnis aus, in dem sich MP3 Dateien befinden, die beim " +
+    "Drücken einer Taste abgespielt werden sollen.\r\nDie MP3s müssen so heißen wie die" +
+    " Tasten, also a.mp3, b.mp3, usw.";
+            // 
+            // label1
+            // 
+            this.label1.Location = new System.Drawing.Point(12, 119);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(250, 28);
+            this.label1.TabIndex = 6;
+            this.label1.Text = "Damit das Fenster nicht im Weg ist, kannst Du es zum Symbol verkleinern";
+            // 
             // Hauptfenster
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(234, 105);
+            this.ClientSize = new System.Drawing.Size(274, 178);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.Beschreibung);
             this.Controls.Add(this.buttonAuswahl);
             this.Controls.Add(this.buttonVerstecken);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.KeyPreview = true;
+            this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(290, 217);
+            this.MinimizeBox = false;
+            this.MinimumSize = new System.Drawing.Size(290, 217);
             this.Name = "Hauptfenster";
             this.Text = "Soundkey";
             this.Load += new System.EventHandler(this.Hauptfenster_Load);
@@ -122,6 +151,8 @@
         private System.Windows.Forms.ToolStripMenuItem MenuBeenden;
         private System.Windows.Forms.FolderBrowserDialog verzeichnisAuswahl;
         private System.Windows.Forms.Button buttonAuswahl;
+        private System.Windows.Forms.Label Beschreibung;
+        private System.Windows.Forms.Label label1;
     }
 }
 
