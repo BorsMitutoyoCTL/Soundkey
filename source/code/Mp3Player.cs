@@ -1,5 +1,7 @@
 ﻿using System;
 using System.IO;
+using System.Threading;
+using NAudio;
 using NAudio.Wave;
 
 namespace Soundkey
@@ -7,6 +9,10 @@ namespace Soundkey
     /// <summary>
     /// Der MP3 Player kann MP3 Dateien abspielen 
     /// </summary>
+    /// <example>
+    /// Mp3Player ipod = new Mp3Player();
+    /// ipod.spieleTon("C:\test.mp3");
+    /// </example>
     public class Mp3Player
     {
         /// <summary>
@@ -43,17 +49,34 @@ namespace Soundkey
             }
         }
 
+        Mp3FileReader mp3stream;
+
+        static int maximaleAnzahlMP3sGleichzeitig = 10;
+        static int aktuelleAnzahlGespielterTöne = 0;
+
         /// <summary>
         /// Spielt eine MP3 Datei tatsächlich ab.
         /// Voraussetzung: der Dateiname ist gültig.
         /// </summary>
         private void spieleDateiMitNAudio(string dateiname)
         {
-            var mp3stream = new Mp3FileReader(dateiname);
-            var ausgabe = new WaveOut();
-            ausgabe.Init(mp3stream);
-            ausgabe.Play();
-            ausgabe.PlaybackStopped += BeimEnde;
+            try
+            {
+                if (aktuelleAnzahlGespielterTöne < maximaleAnzahlMP3sGleichzeitig)
+                {
+                    mp3stream = new Mp3FileReader(dateiname);
+                    var ausgabe = new WaveOut();
+                    ausgabe.Init(mp3stream);
+                    ausgabe.Play();
+                    ausgabe.PlaybackStopped += BeimEnde;
+                    Interlocked.Increment(ref aktuelleAnzahlGespielterTöne);
+                }
+            }
+            catch (MmException)
+            {
+                // Soundkarte hat keinen Platz mehr
+                // Einfach nix tun
+            }
         }
 
         /// <summary>
@@ -64,6 +87,9 @@ namespace Soundkey
         {
             var ausgabe = (WaveOut)sender;
             ausgabe.Dispose();
+            mp3stream.Close();
+            mp3stream.Dispose();
+            Interlocked.Decrement(ref aktuelleAnzahlGespielterTöne);
         }
     }
 }
