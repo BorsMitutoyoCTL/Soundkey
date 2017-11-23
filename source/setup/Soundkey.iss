@@ -25,7 +25,7 @@ AllowNoIcons=yes
 LicenseFile=..\..\LICENSE
 OutputDir=.
 OutputBaseFilename=Soundkey Setup
-SetupIconFile=..\..\..\Soundkey\Logo.ico
+SetupIconFile=..\code\Logo.ico
 Compression=lzma
 SolidCompression=yes
 AppMutex=KeySoundIsRunning
@@ -45,10 +45,10 @@ Name: "german"; MessagesFile: "compiler:Languages\German.isl"; LicenseFile: ..\.
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked
 
 [Files]
-Source: "..\setup\..\setup\..\..\..\Soundkey\bin\Release\Soundkey.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "..\code\bin\Release\Soundkey.exe"; DestDir: "{app}"; Flags: ignoreversion
 Source: "..\..\sounds\*.mp3"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
-Source: "..\..\..\Soundkey\bin\Release\Gma.System.MouseKeyHook.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "..\..\..\Soundkey\bin\Release\NAudio.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "..\code\bin\Release\Gma.System.MouseKeyHook.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "..\code\bin\Release\NAudio.dll"; DestDir: "{app}"; Flags: ignoreversion
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Icons]
