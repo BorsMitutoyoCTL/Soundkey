@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Drawing;
+using System.IO;
 using System.Windows.Forms;
 using Gma.System.MouseKeyHook;
 
@@ -63,6 +65,20 @@ namespace Soundkey
             {
                 // Wenn der Benutzer OK geklicht hat, neues Verzeichnis übernehmen.
                 ausgewählterOrdner = verzeichnisAuswahl.SelectedPath;
+                
+                // Im Fenster anzeigen                
+                Ordner.Text = new DirectoryInfo(ausgewählterOrdner).Name;
+
+                // Warnung, falls keine MP3s vorhanden sind
+                var anzahlMP3s = Directory.GetFiles(ausgewählterOrdner, "*.mp3").Length;
+                if (anzahlMP3s > 0)
+                {
+                    Ordner.ForeColor = SystemColors.ControlText;
+                }
+                else
+                {
+                    Ordner.ForeColor = Color.Red;
+                }
             }
 
             if (antwort == DialogResult.Cancel)

@@ -118,22 +118,6 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>290, 217</value>
-  </data>
-  <data name="label1.Text" xml:space="preserve">
-    <value>Damit das Fenster nicht im Weg ist, kannst Du es zum Symbol verkleinern</value>
-  </data>
-  <data name="&gt;&gt;verzeichnisAuswahl.Type" xml:space="preserve">
-    <value>System.Windows.Forms.FolderBrowserDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="buttonAuswahl.Size" type="System.Drawing.Size, System.Drawing">
-    <value>250, 23</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Beschreibung.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
   <data name="trayIcon.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAABAAQAQEAAAAEAIAAoQgAARgAAACAgAAABACAAqBAAAG5CAAAYGAAAAQAgAIgJAAAWUwAAEBAAAAEA
@@ -552,151 +536,66 @@
         rEEAAKxBAACsQQAArEEAAKxBAACsQQAArEEAAKxBAACsQQAArEEAAKxBAACsQQAArEEAAKxB//+sQQ==
 </value>
   </data>
-  <data name="buttonAuswahl.Text" xml:space="preserve">
-    <value>Verzeichnis auswählen ...</value>
-  </data>
-  <data name="&gt;&gt;Auswahl.Name" xml:space="preserve">
-    <value>Auswahl</value>
-  </data>
-  <data name="&gt;&gt;MenuAnzeigen.Name" xml:space="preserve">
-    <value>MenuAnzeigen</value>
-  </data>
-  <data name="Beschreibung.Size" type="System.Drawing.Size, System.Drawing">
-    <value>253, 71</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>Hauptfenster</value>
-  </data>
-  <data name="&gt;&gt;label1.Name" xml:space="preserve">
-    <value>label1</value>
-  </data>
-  <data name="&gt;&gt;buttonAuswahl.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="trayIcon.Visible" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="Ordner.Text" xml:space="preserve">
-    <value>nichts</value>
-  </data>
-  <data name="&gt;&gt;Ordner.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
-  </data>
-  <data name="&gt;&gt;MenuBeenden.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="Beschreibung.Text" xml:space="preserve">
-    <value>Bitte wählen Sie ein Verzeichnis aus, in dem sich MP3 Dateien befinden, die beim Drücken einer Taste abgespielt werden sollen.
-Die MP3s müssen so heißen wie die Tasten, also a.mp3, b.mp3, usw.</value>
-  </data>
-  <data name="&gt;&gt;Beschreibung.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;buttonVerstecken.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;buttonAuswahl.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="Beschreibung.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 9</value>
-  </data>
-  <data name="Auswahl.Size" type="System.Drawing.Size, System.Drawing">
-    <value>68, 13</value>
-  </data>
-  <data name="Auswahl.Text" xml:space="preserve">
-    <value>Ausgewählt: </value>
-  </data>
-  <data name="Auswahl.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 109</value>
-  </data>
-  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>250, 28</value>
-  </data>
-  <data name="MenuAnzeigen.Size" type="System.Drawing.Size, System.Drawing">
-    <value>123, 22</value>
-  </data>
-  <data name="&gt;&gt;trayMenu.Name" xml:space="preserve">
-    <value>trayMenu</value>
-  </data>
-  <data name="Ordner.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;trayIcon.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NotifyIcon, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Beschreibung.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left, Right</value>
-  </data>
-  <data name="buttonAuswahl.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>None</value>
-  </data>
-  <data name="trayMenu.Size" type="System.Drawing.Size, System.Drawing">
-    <value>124, 48</value>
-  </data>
-  <data name="buttonAuswahl.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 83</value>
-  </data>
-  <data name="&gt;&gt;trayIcon.Name" xml:space="preserve">
-    <value>trayIcon</value>
-  </data>
-  <data name="&gt;&gt;trayMenu.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;buttonAuswahl.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="label1.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;buttonAuswahl.Name" xml:space="preserve">
-    <value>buttonAuswahl</value>
-  </data>
-  <data name="&gt;&gt;MenuAnzeigen.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="Auswahl.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="MenuBeenden.Size" type="System.Drawing.Size, System.Drawing">
-    <value>123, 22</value>
-  </data>
-  <data name="&gt;&gt;Ordner.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;Ordner.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;buttonVerstecken.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="buttonVerstecken.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="buttonVerstecken.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 178</value>
+    <value>12, 143</value>
   </data>
-  <data name="label1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left, Right</value>
+  <data name="buttonVerstecken.Text" xml:space="preserve">
+    <value>Hide</value>
   </data>
-  <data name="&gt;&gt;Ordner.Name" xml:space="preserve">
-    <value>Ordner</value>
+  <data name="buttonAuswahl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="Auswahl.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="buttonAuswahl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 57</value>
   </data>
-  <data name="Ordner.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="buttonAuswahl.Text" xml:space="preserve">
+    <value>Select folder ...</value>
+  </data>
+  <data name="Beschreibung.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Beschreibung.Size" type="System.Drawing.Size, System.Drawing">
+    <value>253, 45</value>
+  </data>
+  <data name="Beschreibung.Text" xml:space="preserve">
+    <value>Please choose a folder with MP3 files, which will be played when a key is pressed. The MP3s must have the same name as the key, e.g.  a.mp3, b.mp3, etc.</value>
+  </data>
+  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 112</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>To move this window out of your way, you can minimize it.</value>
+  </data>
+  <data name="Auswahl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Auswahl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 83</value>
+  </data>
+  <data name="Auswahl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 13</value>
+  </data>
+  <data name="Auswahl.Text" xml:space="preserve">
+    <value>Selected: </value>
+  </data>
+  <data name="Ordner.Location" type="System.Drawing.Point, System.Drawing">
+    <value>73, 83</value>
+  </data>
+  <data name="Ordner.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 13</value>
+  </data>
+  <data name="Ordner.Text" xml:space="preserve">
+    <value>nothing</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>274, 178</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -1116,97 +1015,4 @@ Die MP3s müssen so heißen wie die Tasten, also a.mp3, b.mp3, usw.</value>
         rEEAAKxBAACsQQAArEEAAKxBAACsQQAArEEAAKxBAACsQQAArEEAAKxBAACsQQAArEEAAKxB//+sQQ==
 </value>
   </data>
-  <data name="&gt;&gt;Beschreibung.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="buttonVerstecken.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="Ordner.Size" type="System.Drawing.Size, System.Drawing">
-    <value>35, 13</value>
-  </data>
-  <data name="Ordner.Location" type="System.Drawing.Point, System.Drawing">
-    <value>86, 109</value>
-  </data>
-  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 147</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Soundkey</value>
-  </data>
-  <data name="buttonVerstecken.Text" xml:space="preserve">
-    <value>Verkleinern</value>
-  </data>
-  <data name="&gt;&gt;Auswahl.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="MenuBeenden.Text" xml:space="preserve">
-    <value>Beenden</value>
-  </data>
-  <data name="buttonVerstecken.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left, Right</value>
-  </data>
-  <data name="trayIcon.Text" xml:space="preserve">
-    <value>Soundkey</value>
-  </data>
-  <data name="buttonVerstecken.Size" type="System.Drawing.Size, System.Drawing">
-    <value>250, 23</value>
-  </data>
-  <data name="&gt;&gt;buttonVerstecken.Name" xml:space="preserve">
-    <value>buttonVerstecken</value>
-  </data>
-  <data name="&gt;&gt;Beschreibung.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="buttonAuswahl.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;Auswahl.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;verzeichnisAuswahl.Name" xml:space="preserve">
-    <value>verzeichnisAuswahl</value>
-  </data>
-  <data name="&gt;&gt;buttonVerstecken.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;Beschreibung.Name" xml:space="preserve">
-    <value>Beschreibung</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>274, 206</value>
-  </data>
-  <data name="MenuAnzeigen.Text" xml:space="preserve">
-    <value>Anzeigen</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="Ordner.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="verzeichnisAuswahl.SelectedPath" xml:space="preserve">
-    <value>D:\Projekte\BORS\github\sounds</value>
-  </data>
-  <data name="&gt;&gt;MenuBeenden.Name" xml:space="preserve">
-    <value>MenuBeenden</value>
-  </data>
-  <data name="&gt;&gt;Auswahl.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <metadata name="trayIcon.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
-  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>de</value>
-  </metadata>
-  <metadata name="verzeichnisAuswahl.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 56</value>
-  </metadata>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="trayMenu.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>112, 17</value>
-  </metadata>
 </root>
